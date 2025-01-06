@@ -66,12 +66,3 @@ commands = [
 
 # Run the turtle graphics simulation
 turtle_graphics(commands)
-
-# Explanation of Code:
-# 1. The grid starts with all zeros, representing an empty floor.
-# 2. The turtle starts near the center of the grid at (10, 10) for better use of the available space.
-# 3. Command `2` puts the pen down, and movements marked by `(5, steps)` mark the path with 1s.
-# 4. Turning commands (`3` for right, `4` for left) change the turtle's orientation.
-# 5. `display_floor` uses "*" for marked cells (1s) and spaces for unmarked cells (0s).
-# 6. The example program draws a 12x12 square and displays it.
-# 7. Copy this code into a Python file and modify the commands list to create different shapes.
